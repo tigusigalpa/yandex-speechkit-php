@@ -10,6 +10,8 @@ A PHP SDK that makes it easy to work with [Yandex SpeechKit API](https://cloud.y
 great on its own or as a Laravel package. If you need to transcribe audio, identify speakers, or run speech analytics
 from PHP — this is what you're looking for.
 
+**Язык:** [Русский](README.md) | English
+
 ## What it does
 
 - Async speech recognition for long audio (up to 4 hours / 1 GB)
