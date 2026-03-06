@@ -313,7 +313,7 @@ MIT. See [LICENSE](LICENSE).
 
 ## Author
 
-**Igor Sazonov** — [GitHub](https://github.com/tigusigalpa) · [sovletig@yandex.ru](mailto:sovletig@yandex.ru)
+**Igor Sazonov** — [GitHub](https://github.com/tigusigalpa) · [sovletig@gmail.com](mailto:sovletig@gmail.com)
 
 ## Contributing
 

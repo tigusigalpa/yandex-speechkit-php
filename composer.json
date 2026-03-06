@@ -1,66 +1,66 @@
 {
-  "name": "tigusigalpa/yandex-speechkit-php",
-  "description": "PHP SDK for Yandex SpeechKit API with Laravel support. Async speech recognition, speaker labeling, speech analysis.",
-  "type": "library",
-  "keywords": [
-    "yandex",
-    "speechkit",
-    "stt",
-    "speech-to-text",
-    "speech-recognition",
-    "ai",
-    "laravel",
-    "php",
-    "sdk",
-    "api",
-    "yandex-cloud"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Igor Sazonov",
-      "email": "sovletig@yandex.ru"
-    }
-  ],
-  "homepage": "https://github.com/tigusigalpa/yandex-speechkit-php",
-  "support": {
-    "issues": "https://github.com/tigusigalpa/yandex-speechkit-php/issues",
-    "source": "https://github.com/tigusigalpa/yandex-speechkit-php"
-  },
-  "require": {
-    "php": "^8.0",
-    "guzzlehttp/guzzle": "^7.0",
-    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
-    "tigusigalpa/yandex-cloud-client-php": "^1.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.0|^10.0",
-    "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
-    "mockery/mockery": "^1.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "Tigusigalpa\\YandexSpeechKit\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tigusigalpa\\YandexSpeechKit\\Tests\\": "tests/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Tigusigalpa\\YandexSpeechKit\\Laravel\\YandexSpeechKitServiceProvider"
-      ],
-      "aliases": {
-        "YandexSpeechKit": "Tigusigalpa\\YandexSpeechKit\\Laravel\\Facades\\YandexSpeechKit"
-      }
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
+    "name": "tigusigalpa/yandex-speechkit-php",
+    "description": "PHP SDK for Yandex SpeechKit API with Laravel support. Async speech recognition, speaker labeling, speech analysis.",
+    "type": "library",
+    "keywords": [
+        "yandex",
+        "speechkit",
+        "stt",
+        "speech-to-text",
+        "speech-recognition",
+        "ai",
+        "laravel",
+        "php",
+        "sdk",
+        "api",
+        "yandex-cloud"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Sazonov",
+            "email": "sovletig@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/tigusigalpa/yandex-speechkit-php",
+    "support": {
+        "issues": "https://github.com/tigusigalpa/yandex-speechkit-php/issues",
+        "source": "https://github.com/tigusigalpa/yandex-speechkit-php"
+    },
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+        "tigusigalpa/yandex-cloud-client-php": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tigusigalpa\\YandexSpeechKit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tigusigalpa\\YandexSpeechKit\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tigusigalpa\\YandexSpeechKit\\Laravel\\YandexSpeechKitServiceProvider"
+            ],
+            "aliases": {
+                "YandexSpeechKit": "Tigusigalpa\\YandexSpeechKit\\Laravel\\Facades\\YandexSpeechKit"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

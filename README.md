@@ -312,7 +312,7 @@ MIT. См. [LICENSE](LICENSE).
 
 ## Автор
 
-**Игорь Сазонов** — [GitHub](https://github.com/tigusigalpa) · [sovletig@yandex.ru](mailto:sovletig@yandex.ru)
+**Игорь Сазонов** — [GitHub](https://github.com/tigusigalpa) · [sovletig@gmail.com](mailto:sovletig@gmail.com)
 
 ## Участие в разработке
 
